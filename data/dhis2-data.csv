@@ -1,98 +1,302 @@
-HF,Expected reports,Actual reports,dropout rate,DPT3,PCV 3,wastage rate
-Bigaaga Health Centre II,,,,,,
-Bikungu Health Centre II,3,3,18,14,14,37.1
-Bikurungu Health Centre III,3,3,-23,290,290,-81.7
-Bucence Health Centre II,3,3,,,,
-Bugangari Health Centre IV,3,3,-21,132,132,17
-Buhandagazi Health Centre II,3,3,33,6,6,33.3
-Buhunga Health Centre IV,3,3,4,88,88,34.4
-Bukiriro Clinic,3,3,,,,
-Bunono Health Centre II,3,3,-29,22,22,
-Burama Health Centre II,3,3,28,57,57,
-Burombe Health Centre III,3,3,-12,63,63,-3.3
-Burora (Nyarushanje ) Health Centre II,3,3,36,7,7,
-Buyanja Health Centre III,3,3,-28,111,111,-1.4
-Bwambara Health Centre III,3,3,24,76,64,8.1
-Bwanda (Rukungiri) Health Centre II,3,3,-17,7,7,
-Bwanga Health Centre II,3,3,-57,36,29,30.9
-COU Kisiizi Hospital,3,3,-3,181,180,61.8
-Doctors Case Medicals Health Centre IV,3,3,,,,
-Garubunda Health Centre II,3,3,-125,9,9,23.3
-Ibanda (Nyarushanje) Health Centre II,3,3,-19,32,36,60.4
-Ihunga (Rukungiri) Health Centre II,3,3,0,5,5,
-Kabuga Health Centre II,3,3,-100,10,11,
-Kadoth Clinic,3,3,,,,
-Kafunjo (Nyakishenyi) Health Centre II,3,3,44,9,9,
-Kafunjo Ngo Health Centre II,3,3,-94,31,31,
-Kahengye Health Centre II,3,3,-23,16,16,50.6
-Kahoko Health Centre II,3,3,4,22,30,
-Kakamba (Rukungiri) Health Centre II,3,3,33,8,8,
-Karangaro Health Centre II,3,3,-8,14,16,
-Karishonga Health Centre II,3,3,50,3,3,
-Karoli Lwanga (Nyakibale) Hospital,3,3,-3,103,104,-8
-Karuhembe Health Centre III,3,3,-8,56,55,25.5
-Kasheshe Health Centre III,3,3,-32,45,45,50.6
-Katerampungu Health Centre II,3,3,-150,10,7,
-Katonya Health Centre II,3,3,-6,50,50,
-Katwekamwe Health Centre II,3,3,0,6,6,34.6
-Kavuuya Memorial Health Centre III,3,3,7,27,27,45.6
-Kebisoni Health Centre IV,3,3,8,98,98,23.4
-Kibirizi Health Centre III,3,3,-16,59,59,13.4
-Kikarara Health Centre II,3,3,22,40,40,-17.5
-Kikongi Health Centre II,3,3,-67,30,29,6.5
-Kisiizi Health Centre III,3,3,10,27,27,8.9
-Kitimba Health Centre III,3,3,28,36,37,-40.2
-Kitojo Ngo Health Centre II,3,3,-17,14,14,
-Kyaburere Health Centre II,3,3,-26,29,29,
-Kyamakanda Health Centre II,3,3,33,8,8,
-Kyatoko Health Centre II,3,3,-80,9,9,
-Marumba Health Centre II,3,3,-50,3,3,
-Masya Health Centre II,3,3,-71,53,53,-336.7
-Masya Ngo Health Centre II,3,3,-57,11,11,
-Mitooma Health Centre II,3,3,-42,47,43,
-Murama (Buhunga) Health Centre II,3,3,100,,,0
-Murama Health Centre II,3,3,0,30,30,
-Nakishenyi Community Medical Centre,3,3,,,,
-Ndama Health Centre III,3,3,-12,134,134,-78.9
-Ndere Health Centre II,3,3,7,14,15,12
-Ngoma Health Centre II,3,3,-100,2,,
-North Kigezi Health Centre,3,3,16,201,201,-17.6
-Nyabiteete Health Centre II,3,3,22,14,14,31.4
-Nyabushenyi Health Centre II,3,3,0,12,12,
-Nyakabungo Health Centre II,3,3,0,21,21,20
-Nyakagyeme Health Centre III,3,3,-2,67,66,69.3
-Nyakanyinya Health Centre II,3,3,,,,
-Nyakariro Health Centre II,3,3,15,11,11,62.2
-Nyakazinga Health Centre II,3,3,-100,14,14,
-Nyakinengo Health Centre II,3,3,0,10,10,46.7
-Nyakinengo NGO Health Centre II,3,3,,,,
-Nyakishenyi Health Centre III,3,3,4,82,82,27.2
-Nyakishenyi Ngo Health Centre III,3,3,26,17,17,
-Nyarugando Health Centre II,3,3,-33,20,17,-333.3
-Nyarushanje Health Centre III,3,3,5,55,55,38.1
-Nyarushanje Prisons Health Centre II,3,3,,,,
-Nyarwimuka Health Centre II,3,3,6,16,16,
-Rubanga Health Centre II,3,3,26,23,23,22.7
-Rugando Health Centre II,3,3,-40,14,14,3
-Ruhinda Health Centre III,3,3,9,59,55,37.8
-Rukungiri Blood Collection & Distribution Point,,,,,,
-Rukungiri Health Centre IV,3,3,-11,110,110,1.8
-Rukungiri Police Health Centre II,3,3,,,,96.7
-Rukungiri Prisons Health Centre II,3,3,,,,
-Rusheeshe Health Centre III,3,3,-67,40,40,
-Ruteete Health Centre II,3,3,-40,21,21,
-Rutooma (Buhunga) Health Centre II,3,3,0,2,2,70
-Ruyonza Health Centre II,3,3,-96,47,47,
-Rwabukoba Health Centre II,3,3,0,3,3,
-Rwakabengo Health Centre III,3,3,-18,86,76,8.5
-Rwakigaju Health Centre II,3,3,,,,
-Rwakirungura Health Centre II,3,3,-92,23,23,
-Rwamuhima Health Centre II,3,3,22,14,14,-316.7
-Rwengiri Health Centre III,3,3,12,46,54,-59.3
-Rwenshama (GOVT) Health Centre III,3,3,4,23,23,-7.9
-Rwenshama (NGO) Health Centre II,3,3,-125,9,9,
-Rwerere Health Centre II,3,3,-4,57,57,
-St. Jancinta Nyamakukuru Heath Centre III,3,3,21,15,15,2
-St. Mark Mabanga Health Centre II,3,3,-62,21,21,
-St. Sabena Health Centre II,3,3,,,,
-TASO Rukungiri,3,3,,,,
+District,HF,Expected reports,Actual reports,dropout rate,DPT3,PCV 3,wastage rate
+Rukungiri,Bigaaga Health Centre II,,,,,,
+Rukungiri,Bikungu Health Centre II,3,3,18,14,14,37.1
+Rukungiri,Bikurungu Health Centre III,3,3,-23,290,290,-81.7
+Rukungiri,Bucence Health Centre II,3,3,,,,
+Rukungiri,Bugangari Health Centre IV,3,3,-21,132,132,17
+Rukungiri,Buhandagazi Health Centre II,3,3,33,6,6,33.3
+Rukungiri,Buhunga Health Centre IV,3,3,4,88,88,34.4
+Rukungiri,Bukiriro Clinic,3,3,,,,
+Rukungiri,Bunono Health Centre II,3,3,-29,22,22,
+Rukungiri,Burama Health Centre II,3,3,28,57,57,
+Rukungiri,Burombe Health Centre III,3,3,-12,63,63,-3.3
+Rukungiri,Burora (Nyarushanje ) Health Centre II,3,3,36,7,7,
+Rukungiri,Buyanja Health Centre III,3,3,-28,111,111,-1.4
+Rukungiri,Bwambara Health Centre III,3,3,24,76,64,8.1
+Rukungiri,Bwanda (Rukungiri) Health Centre II,3,3,-17,7,7,
+Rukungiri,Bwanga Health Centre II,3,3,-57,36,29,30.9
+Rukungiri,COU Kisiizi Hospital,3,3,-3,181,180,61.8
+Rukungiri,Doctors Case Medicals Health Centre IV,3,3,,,,
+Rukungiri,Garubunda Health Centre II,3,3,-125,9,9,23.3
+Rukungiri,Ibanda (Nyarushanje) Health Centre II,3,3,-19,32,36,60.4
+Rukungiri,Ihunga (Rukungiri) Health Centre II,3,3,0,5,5,
+Rukungiri,Kabuga Health Centre II,3,3,-100,10,11,
+Rukungiri,Kadoth Clinic,3,3,,,,
+Rukungiri,Kafunjo (Nyakishenyi) Health Centre II,3,3,44,9,9,
+Rukungiri,Kafunjo Ngo Health Centre II,3,3,-94,31,31,
+Rukungiri,Kahengye Health Centre II,3,3,-23,16,16,50.6
+Rukungiri,Kahoko Health Centre II,3,3,4,22,30,
+Rukungiri,Kakamba (Rukungiri) Health Centre II,3,3,33,8,8,
+Rukungiri,Karangaro Health Centre II,3,3,-8,14,16,
+Rukungiri,Karishonga Health Centre II,3,3,50,3,3,
+Rukungiri,Karoli Lwanga (Nyakibale) Hospital,3,3,-3,103,104,-8
+Rukungiri,Karuhembe Health Centre III,3,3,-8,56,55,25.5
+Rukungiri,Kasheshe Health Centre III,3,3,-32,45,45,50.6
+Rukungiri,Katerampungu Health Centre II,3,3,-150,10,7,
+Rukungiri,Katonya Health Centre II,3,3,-6,50,50,
+Rukungiri,Katwekamwe Health Centre II,3,3,0,6,6,34.6
+Rukungiri,Kavuuya Memorial Health Centre III,3,3,7,27,27,45.6
+Rukungiri,Kebisoni Health Centre IV,3,3,8,98,98,23.4
+Rukungiri,Kibirizi Health Centre III,3,3,-16,59,59,13.4
+Rukungiri,Kikarara Health Centre II,3,3,22,40,40,-17.5
+Rukungiri,Kikongi Health Centre II,3,3,-67,30,29,6.5
+Rukungiri,Kisiizi Health Centre III,3,3,10,27,27,8.9
+Rukungiri,Kitimba Health Centre III,3,3,28,36,37,-40.2
+Rukungiri,Kitojo Ngo Health Centre II,3,3,-17,14,14,
+Rukungiri,Kyaburere Health Centre II,3,3,-26,29,29,
+Rukungiri,Kyamakanda Health Centre II,3,3,33,8,8,
+Rukungiri,Kyatoko Health Centre II,3,3,-80,9,9,
+Rukungiri,Marumba Health Centre II,3,3,-50,3,3,
+Rukungiri,Masya Health Centre II,3,3,-71,53,53,-336.7
+Rukungiri,Masya Ngo Health Centre II,3,3,-57,11,11,
+Rukungiri,Mitooma Health Centre II,3,3,-42,47,43,
+Rukungiri,Murama (Buhunga) Health Centre II,3,3,100,,,0
+Rukungiri,Murama Health Centre II,3,3,0,30,30,
+Rukungiri,Nakishenyi Community Medical Centre,3,3,,,,
+Rukungiri,Ndama Health Centre III,3,3,-12,134,134,-78.9
+Rukungiri,Ndere Health Centre II,3,3,7,14,15,12
+Rukungiri,Ngoma Health Centre II,3,3,-100,2,,
+Rukungiri,North Kigezi Health Centre,3,3,16,201,201,-17.6
+Rukungiri,Nyabiteete Health Centre II,3,3,22,14,14,31.4
+Rukungiri,Nyabushenyi Health Centre II,3,3,0,12,12,
+Rukungiri,Nyakabungo Health Centre II,3,3,0,21,21,20
+Rukungiri,Nyakagyeme Health Centre III,3,3,-2,67,66,69.3
+Rukungiri,Nyakanyinya Health Centre II,3,3,,,,
+Rukungiri,Nyakariro Health Centre II,3,3,15,11,11,62.2
+Rukungiri,Nyakazinga Health Centre II,3,3,-100,14,14,
+Rukungiri,Nyakinengo Health Centre II,3,3,0,10,10,46.7
+Rukungiri,Nyakinengo NGO Health Centre II,3,3,,,,
+Rukungiri,Nyakishenyi Health Centre III,3,3,4,82,82,27.2
+Rukungiri,Nyakishenyi Ngo Health Centre III,3,3,26,17,17,
+Rukungiri,Nyarugando Health Centre II,3,3,-33,20,17,-333.3
+Rukungiri,Nyarushanje Health Centre III,3,3,5,55,55,38.1
+Rukungiri,Nyarushanje Prisons Health Centre II,3,3,,,,
+Rukungiri,Nyarwimuka Health Centre II,3,3,6,16,16,
+Rukungiri,Rubanga Health Centre II,3,3,26,23,23,22.7
+Rukungiri,Rugando Health Centre II,3,3,-40,14,14,3
+Rukungiri,Ruhinda Health Centre III,3,3,9,59,55,37.8
+Rukungiri,Rukungiri Blood Collection & Distribution Point,,,,,,
+Rukungiri,Rukungiri Health Centre IV,3,3,-11,110,110,1.8
+Rukungiri,Rukungiri Police Health Centre II,3,3,,,,96.7
+Rukungiri,Rukungiri Prisons Health Centre II,3,3,,,,
+Rukungiri,Rusheeshe Health Centre III,3,3,-67,40,40,
+Rukungiri,Ruteete Health Centre II,3,3,-40,21,21,
+Rukungiri,Rutooma (Buhunga) Health Centre II,3,3,0,2,2,70
+Rukungiri,Ruyonza Health Centre II,3,3,-96,47,47,
+Rukungiri,Rwabukoba Health Centre II,3,3,0,3,3,
+Rukungiri,Rwakabengo Health Centre III,3,3,-18,86,76,8.5
+Rukungiri,Rwakigaju Health Centre II,3,3,,,,
+Rukungiri,Rwakirungura Health Centre II,3,3,-92,23,23,
+Rukungiri,Rwamuhima Health Centre II,3,3,22,14,14,-316.7
+Rukungiri,Rwengiri Health Centre III,3,3,12,46,54,-59.3
+Rukungiri,Rwenshama (GOVT) Health Centre III,3,3,4,23,23,-7.9
+Rukungiri,Rwenshama (NGO) Health Centre II,3,3,-125,9,9,
+Rukungiri,Rwerere Health Centre II,3,3,-4,57,57,
+Rukungiri,St. Jancinta Nyamakukuru Heath Centre III,3,3,21,15,15,2
+Rukungiri,St. Mark Mabanga Health Centre II,3,3,-62,21,21,
+Rukungiri,St. Sabena Health Centre II,3,3,,,,
+Rukungiri,TASO Rukungiri,3,3,,,,
+Gulu City,AAR Gulu Clinic,3,1,-100,2,2,0
+Gulu City,Agonga Karine Community Health Centre II,3,1,-31,119,119,-7.5
+Gulu City,Alokolum Health Centre II,3,0,,,,
+Gulu City,Aywee Health Centre III,3,2,20,81,81,-13.4
+Gulu City,Bardege Health Centre III,3,2,6,50,50,-27.5
+Gulu City,Care Plus Medical Centre,3,1,,0,0,
+Gulu City,Charity Medical Centre,,,,,,
+Gulu City,Child Care Community Centre,,,,,,
+Gulu City,Comboni Samaritans Health Centre II,3,2,33,33,33,0
+Gulu City,Community Clinic,3,1,,0,0,
+Gulu City,Fitzmann Medical and Dental Clinic,3,1,,0,0,
+Gulu City,Flama Uganda Health Centre II,3,0,,,,
+Gulu City,Glanhor Clinic,3,0,,,,
+Gulu City,Good Hope Medical Centre(Gulu) Clinic,3,1,,0,0,
+Gulu City,Goodwilll Polyclinic,,,,,,
+Gulu City,Gulu Independent Hospital,3,1,0,105,105,0
+Gulu City,Gulu Lifeline Clinic,,,,,,
+Gulu City,Gulu Military General Hospital,3,3,8,33,33,116.2
+Gulu City,Gulu Police Health Centre III,3,2,41,10,10,2.2
+Gulu City,Gulu Prisons Health Centre III,3,2,0,34,34,-184.2
+Gulu City,Gulu Regional Referral Hospital,3,2,36,216,217,-3.2
+Gulu City,Gulu University Health Centre II,3,1,,,,
+Gulu City,Gulu Women Prisons Health Centre II,3,2,,,,
+Gulu City,Gulu Youth Health Centre II,,,,,,
+Gulu City,Healing Hand Medical Centre,3,0,,,,
+Gulu City,International Medical Centre,3,1,-400,5,5,74.3
+Gulu City,Karin Medical Health Centre II,3,1,13,46,46,0
+Gulu City,Kony-Kwo Clinic,,,,,,
+Gulu City,Lapeta Health Centre II,3,1,-100,12,12,-16
+Gulu City,Laroo Health Centre III,3,2,32,46,47,3.7
+Gulu City,Layibi Techo Health Centre III,3,1,11,76,76,-26.2
+Gulu City,Light Rays Uganda Health Centre II,3,1,31,67,67,-1.6
+Gulu City,Marie Stopes Uganda Gulu Health Centre II,3,3,,0,0,
+Gulu City,Mary Queen Of Peace Health Centre III,3,2,11,24,24,55.1
+Gulu City,Mola Medical Centre Clinic,,,,,,
+Gulu City,Musgrave Health Centre II,,,,,,
+Gulu City,Oitino Health Centre II,3,1,-17,7,7,5.3
+Gulu City,Pece Awel Health Centre III,,,,,,
+Gulu City,Pece Prisons Health Centre II,3,1,,0,0,
+Gulu City,Pikwo Medical Centre Clinic,3,2,,0,0,
+Gulu City,Pilwak Clinic (Pece),,,,,,
+Gulu City,Reproductive Health Uganda (Gulu) Health Centre II,3,2,100,0,0,33.3
+Gulu City,St. Bakita Medical Centre and Maternity Home,3,1,,,,
+Gulu City,St. Mary's Hospital Lacor,3,3,,,,
+Gulu City,St. Mauritz Health Centre II,3,2,-19,64,64,0.57
+Gulu City,St. Monica Health Centre II,3,2,26,54,54,2.5
+Gulu City,St. Nektarios Orthodox Health Centre III,3,1,37,12,12,-2.2
+Gulu City,St. Philip Health Centre II,3,3,-23,87,87,-40.1
+Gulu City,TASO Gulu,3,3,,0,0,
+Gulu City,Unyama Health Centre II,3,1,25,24,24,-88.6
+Gulu City,Victory Medical Centre Clinic (Laroo),3,3,,0,0,
+Luwero,Awebwa Matenity Centre,3,3,42,26,25,0
+Luwero,Bamugolodde Health Centre II,3,3,7,55,53,21.6
+Luwero,Bamunanika Health Centre III,3,2,-35,101,90,8
+Luwero,Bamunanika Prisons Health Centre II,3,0,,,,
+Luwero,Bishop Ascili Hospital,3,2,-124,150,150,-105
+Luwero,Bombo General Military Hospital,3,2,8,141,138,-9.7
+Luwero,Bombo Health Centre III,3,2,-6,134,126,-71.3
+Luwero,Bowa Health Centre III,3,2,6,48,48,2.1
+Luwero,Bubuubi Health Centre II,3,2,22,58,49,7
+Luwero,Bugema University Health Centre III,3,2,-6,120,121,7.1
+Luwero,Bukalasa Health Centre III,3,3,8,76,75,16.2
+Luwero,Bukolwa Health Centre II,3,2,23,30,28,47
+Luwero,Bulami Orthodox Health Centre II,3,2,35,22,25,13.3
+Luwero,Bulemezi Maternity Health Centre II,3,0,,,,
+Luwero,Butuntumula Health Centre III,3,3,-42,131,128,-5.3
+Luwero,Butuntumula Prisons Health Centre II,3,0,,,,
+Luwero,Buyuki Health Centre II,3,3,-22,96,97,12.5
+Luwero,Bwaziba Health Centre II,3,1,-33,56,56,-16.2
+Luwero,Canan Medical Centre,3,2,,,,
+Luwero,Doctors Clinic-Kasana Medical Centre,3,2,22,7,5,533.3
+Luwero,Ebenezer Psychiatric Clinic,3,3,,,,
+Luwero,Empower Medical Centre,3,1,,,,
+Luwero,Gladys Domiciliary Clinic,3,2,,,,
+Luwero,Good Hope Medical Centre,3,1,-6,55,52,2.4
+Luwero,Holy Cross - Kikyusa Health Centre III,3,3,6,120,120,-7.2
+Luwero,Home Land Medical Centre,,,,,,
+Luwero,Hope Health Centre,3,0,-33,12,12,-5.9
+Luwero,Jek Com Health Centre II,3,0,,,,
+Luwero,Kabakedi Health Centre II,3,3,0,37,33,36.8
+Luwero,Kabanyi Health Centre II,3,3,0,26,30,46.2
+Luwero,Kalagala Health Centre IV,3,1,28,76,76,14
+Luwero,Kamelas-Kasana Luwero Medical Centre,3,1,,,,
+Luwero,Kamelas-Kikyusa Medical Centre,3,0,,,,
+Luwero,Kamelas-Ndejje Medical Centre,3,2,,,,
+Luwero,Kamira Health Centre III,3,2,32,81,81,-4.5
+Luwero,Kanyanda Health Centre II,3,2,-8,57,58,18.5
+Luwero,Kasozi Health Centre III,3,2,38,8,10,57.8
+Luwero,Katikamu Health Centre III,3,3,17,110,110,0.57
+Luwero,Katikamu Kisuule (The Good Samaritan) Health Centre II,3,3,47,23,26,52.5
+Luwero,Katikamu SDA Dispensary,3,2,-22,11,11,6.7
+Luwero,Katuugo Health Centre III,3,3,-3,125,127,-23.8
+Luwero,Kayindu Health Centre II,3,0,,,,
+Luwero,Kibengo Health Centre III,3,2,32,36,36,21
+Luwero,Kigombe Health Centre II,3,2,-13,71,71,14.8
+Luwero,Kikoma Health Centre III,3,3,-41,159,159,32.9
+Luwero,Kikube Health Centre II,3,3,-33,36,34,51.3
+Luwero,Kikyusa - Ninda Health Centre II,3,0,,,,
+Luwero,Kireku Health Centre II,3,1,-9,36,36,
+Luwero,Kirumandagi Health Centre II,3,2,-67,55,55,8.2
+Luwero,Kyalugondo Health Centre III,3,2,5,125,125,-111.8
+Luwero,Kyevunze Health Centre II,3,0,,,,
+Luwero,Lugo Health Centre III,3,2,0,37,37,-4.5
+Luwero,Lukomera Maternity Clinic,3,3,-11,71,71,-1.5
+Luwero,Luteete Health Centre II,3,2,-92,48,40,
+Luwero,Lutuula Health Centre II,3,2,-15,31,28,5.1
+Luwero,Luwero General Hospital,3,3,9,526,461,-324.4
+Luwero,Luwero Police Clinic,3,2,,,,
+Luwero,Maama Alive Domiciliary Clinic,3,3,,,,
+Luwero,Makulubita Health Centre III,3,3,18,71,71,18
+Luwero,Makulubita Prisons Clinic,3,0,,,,
+Luwero,Mariana Maternity Home,3,3,,,,
+Luwero,Marion Yamba Medical Centre,3,2,15,33,31,
+Luwero,Mazzi Health Centre II,3,1,0,35,35,
+Luwero,Medical Plaza-Luwero Health Centre II,3,1,,,,
+Luwero,Mpologoma Medical Centre,3,2,0,19,9,-150
+Luwero,Mulajje Health Centre III,3,2,61,35,48,11
+Luwero,Mwesigwa Maternity Clinic,3,0,,,,
+Luwero,NACOL Medical Centre,3,3,,,,
+Luwero,Nakatonya Health Centre III,3,2,5,69,69,-5.4
+Luwero,Nakigoza Health Centre II,3,2,-7,91,90,-316.7
+Luwero,Namaggwa Maternity Clinic,3,2,8,23,30,-1.4
+Luwero,Nambi Health Centre II,3,2,-7,43,35,-152
+Luwero,Nandere Health Centre II,3,2,53,9,9,16.7
+Luwero,Ndejje Health Centre II,3,2,3,28,28,25.5
+Luwero,Ndejje University Health Centre II,3,1,,,,
+Luwero,New Town Medical Centre,3,0,,,,
+Luwero,Njovu Ismalic Medical Centre,3,3,3,95,73,2.9
+Luwero,Nsanvu Health Centre II,3,1,-25,15,15,34
+Luwero,Nsawo Health Centre III,3,2,12,153,196,-67.3
+Luwero,Nsawo Rcc Health Centre III,3,3,42,11,9,16.3
+Luwero,Nyimbwa Health Centre IV,3,3,12,90,65,7.8
+Luwero,Nyimbwa Prisons Health Centre II,3,2,,,,
+Luwero,Orient Medical Centre,3,2,11,67,69,-21.9
+Luwero,Penny Clinic Medical Centre,3,2,,,,
+Luwero,Reproductive Health Uganda (Luwero),3,2,,,,
+Luwero,Shanti Health Centre II,3,3,10,53,53,18.7
+Luwero,Spring Hills Medical Centre,3,1,,,,
+Luwero,Ssambwe Health Centre II,3,2,18,9,9,42.5
+Luwero,Ssekamuli Health Centre III,3,2,-12,57,36,5
+Luwero,St. Catherine Clinic (Nyimbwa),3,2,,,,
+Luwero,St. Jude Medical Centre,3,2,100,,,
+Luwero,St. Kizito Natyole Health Centre III,3,3,3,241,238,6.4
+Luwero,St. Luke Namaliga Health Centre III,3,2,4,71,64,6.5
+Luwero,St. Mary's Kalule Health Centre III,3,2,-2,46,46,13.9
+Luwero,St. Mary's Kasaala Health Centre IV,3,2,-13,68,68,-1.6
+Luwero,St. Panagiotis Health Centre II,3,2,56,12,11,850
+Luwero,St. Panteleimon Health Centre III,3,2,,,,
+Luwero,Wabusaana Prisons Clinic,3,0,,,,
+Luwero,Wabusana Health Centre III,3,3,20,117,122,57.2
+Luwero,Wobulenzi FPAU Health Centre II,3,0,,,,
+Luwero,Zirobwe Health Centre III,3,2,11,122,116,38.1
+Masindi,Alimugonza Health Centre II,3,2,17,45,37,-4.4
+Masindi,Biizi Health Centre II,3,2,-75,21,21,31.8
+Masindi,Budongo Health Centre II,3,2,4,55,51,-39
+Masindi,Buliima Kitara Medical Health Centre II,3,2,3,33,33,-118.8
+Masindi,Bwijanga Health Centre IV,3,2,-1,82,82,47.6
+Masindi,Community Doctors Clinic,3,2,,,,
+Masindi,Ikoba Health Centre III,3,2,24,44,43,
+Masindi,Isimba Prisons Health Centre II,3,2,,,,
+Masindi,Kasenene Health Centre II,3,2,7,67,67,-110
+Masindi,Kasongoire Health Centre II,3,2,-11,63,63,
+Masindi,Katasenywa Health Centre III,3,2,55,18,18,5.2
+Masindi,Kibwona Health Centre III,3,2,-2,46,46,-27.3
+Masindi,Kibyama Health Centre II,3,2,-67,15,15,-23.3
+Masindi,Kichandi Health Centre II,3,2,-20,18,18,-54.8
+Masindi,Kigezi Health Centre II,3,2,-19,38,46,12.6
+Masindi,Kijenga Health Centre II,3,2,10,45,47,
+Masindi,Kijunjubwa Health Centre III,3,2,25,59,59,-1025
+Masindi,Kijunjubwa Kitara Medical Centre,3,2,-40,7,7,125.7
+Masindi,Kikingura Health Centre II,3,2,-10,11,12,-200
+Masindi,Kilanyi Health Centre II,3,2,3,66,55,-5.1
+Masindi,Kimengo Health Centre III,3,2,12,57,57,12.1
+Masindi,Kinyara Sugar Works Health Centre III,3,3,9,130,130,-49.3
+Masindi,Kirasa Health Centre II,3,2,20,36,36,0.77
+Masindi,Kisalizi Health Centre II,3,2,13,21,11,-35.6
+Masindi,Kitanyata Health Centre II,3,2,34,94,94,19
+Masindi,Kyamaiso Health Centre II,3,2,35,11,11,
+Masindi,Kyatiri Health Centre III,3,1,33,84,84,-233.3
+Masindi,Kyatiri Mary Mother of the Church Health Centre III,3,2,31,87,87,-211
+Masindi,Maiha Prisons Health Centre II,3,1,,,,
+Masindi,Masindi General Hospital,3,2,25,257,257,-20.9
+Masindi,Masindi Kitara Medical Centre,3,2,22,53,53,17.8
+Masindi,Masindi Main Prisons Health Centre III,3,2,,,,
+Masindi,Masindi Military Barracks Health Centre,3,3,58,24,24,-9.7
+Masindi,Masindi Police Barracks Health Centre II,3,2,,,,
+Masindi,Masindi Women Prisons Health Centre III,3,2,,,,
+Masindi,Master Doctor Clinic,3,2,,,,
+Masindi,Mihembero Health Centre II,3,2,30,28,28,20
+Masindi,Mirembe Clinic,3,1,,,,
+Masindi,Ngomokwe Nursing Home Health Centre III,3,2,,,,
+Masindi,Ntooma Health Centre II,3,2,10,27,27,180
+Masindi,Nyabyeya Health Centre II,3,2,30,46,46,21.3
+Masindi,Nyakitbwa Health Centre III,3,2,2,45,45,
+Masindi,Nyamigisa Health Centre II,3,2,0,35,35,-13.3
+Masindi,Nyantonzi Health Centre III,3,2,27,69,69,-47.1
+Masindi,Osepadel Medical Centre,3,2,-29,27,29,68.2
+Masindi,Pakanyi Health Centre III,3,2,41,94,94,6.8
+Masindi,Police Training School Health Centre II,3,1,,,,
+Masindi,Supreme Medical Health Centre III,3,1,,,,
+Masindi,TASO Masindi,3,2,,,,
+Masindi,Trust Medical Health Centre II,3,3,,,,
+Masindi,Walabyeki Medical Health Centre III,3,2,,,,
+Masindi,Wanaichi Medical Health Centre II,3,2,,,,
