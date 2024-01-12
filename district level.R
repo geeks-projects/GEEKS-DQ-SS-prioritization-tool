@@ -1,31 +1,22 @@
 
 library(tidyverse)
-library(tidyr)
+
 percentage <- function(indicator){
   (sum(indicator, na.rm = T)/n())*100
 }
 
 
 district_data <- final_df |> 
-  group_by(District) |> 
+  group_by(Region) |> 
   summarise(across(missing_reports:neg_wastage_rates_dpt, percentage)) |> 
+  pivot_longer(cols = missing_reports:neg_wastage_rates_dpt,  names_to = "data_quality_issue")
   
   
   
 ## Visualisation 
-
-ggplot() +
-  statebins:::geom_rtile(
-    data = district_data,
-    mapping = aes(x = week, y = weekday, fill = colour),
-    radius = grid::unit(3, "pt"),
-    width = 0.9,
-    height = 0.9
-  ) +
-  statebins:::geom_rtile(
-    data = leg_data,
-    mapping = aes(x = week, y = weekday, fill = colour),
-    radius = grid::unit(3, "pt"),
-    width = 0.9,
-    height = 0.9
-  ) 
+district_data |> 
+ggplot( mapping = aes(y = Region, x = data_quality_issue, fill = value)) +
+  geom_tile(color = "white",
+            lwd = 1.5,
+            linetype = 1) +
+  coord_fixed()

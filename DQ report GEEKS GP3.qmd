@@ -1,0 +1,154 @@
+---
+title: "DQ report"
+author: "GEEKS group 2"
+format: html
+execute: 
+  echo: false
+  warning: false
+---
+
+## Quarto
+
+```{r}
+library(tidyverse)
+library(reactable)
+library(flextable)
+library(scales)
+library(bslib)
+library(shiny)
+library(bsicons)
+```
+
+```{r}
+data <- read.csv("./data/dhis2-data2.csv")
+
+library(dplyr)
+
+data_clean  <- data |> rowwise() |> 
+  mutate(District = str_remove_all(District, " District"),
+         missing_reports = Expected.reports - Actual.reports, 
+         missing_reports = if_else(missing_reports == 0, FALSE, TRUE),
+         neg_dropout_rate_dpt1_3 = if_else(dropout.rate >= 0, FALSE, TRUE),
+         discrepancy_dpt3_pcv3 = DPT3 - PCV.3, 
+         discrepancy_dpt3_pcv3 = if_else(discrepancy_dpt3_pcv3 == 0, FALSE, TRUE),
+         neg_wastage_rates_dpt = if_else(wastage.rate >= 0, FALSE, TRUE),
+         .keep = "unused") |> 
+  filter( !(is.na(missing_reports)& is.na(neg_dropout_rate_dpt1_3)& is.na(discrepancy_dpt3_pcv3) & is.na(neg_wastage_rates_dpt)))
+
+## 
+final_df <- data_clean  |>  
+  mutate(priorty_number = sum(missing_reports, neg_dropout_rate_dpt1_3, 
+                            discrepancy_dpt3_pcv3, neg_wastage_rates_dpt, na.rm = T)) |> 
+  arrange(desc(priorty_number))
+
+```
+
+```{r}
+
+percentage <- function(indicator){
+  round((sum(indicator, na.rm = T)/n())*100, digits= 1)
+}
+
+
+district_data <- final_df |> 
+  group_by(District) |> 
+  summarise(across(missing_reports:neg_wastage_rates_dpt, percentage)) |> 
+  arrange(across(missing_reports:neg_wastage_rates_dpt, desc))
+  #arrange(desc(missing_reports), desc(neg_dropout_rate_dpt1_3), desc(discrepancy_dpt3_pcv3),desc(neg_wastage_rates_dpt))
+
+```
+
+```{r}
+colourer <- col_quantile(
+  palette = c("RdYlGn"),
+  reverse = TRUE,
+  domain = c(0, 100))
+```
+
+```{r}
+std_border <- fp_border_default(width = 2, color = "white")
+
+ft <- flextable( district_data)
+
+ # ft |> 
+ #  bg(bg = colourer,
+ #     j = c("missing_reports","neg_dropout_rate_dpt1_3","discrepancy_dpt3_pcv3",  "neg_wastage_rates_dpt")) %>%
+ #   bg(bg = colourer,
+ #     j = c("missing_reports","neg_dropout_rate_dpt1_3","discrepancy_dpt3_pcv3",  "neg_wastage_rates_dpt")) |> 
+ #  fontsize( size = 10, part = "all") |> 
+ #  font(fontname = "Courier", part = "all") |> 
+ #   align(align = "center", part = "all") |> 
+ #  bold() |> 
+ #  # color(color = "white", part = "body") |> 
+ #  #  color(color = "black",part = "header") |> 
+ #   border_outer(part = "all", border = std_border) %>%
+ #   border_inner(border = std_border, part = "all") |> 
+ #   height(height = .5) %>%
+ #   width(width = .5) |> 
+ #   hrule(rule = "exact", part = "body")
+  
+
+```
+
+::: {.callout-note}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+::: {.callout-tip}
+## Tip with Title
+
+This is an example of a callout with a title.
+:::
+
+::: {.callout-caution collapse="true"}
+## Expand To Learn About Collapse
+
+This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+:::
+
+
+```{r}
+theme_design <- function(x) {
+  
+  
+  x <- border_remove(x)
+  std_border <- fp_border_default(width = 4, color = "white")
+  x <- fontsize(x, size = 10, part = "all")
+  x <- font(x, fontname = "Courier", part = "all")
+  x <- align(x, align = "center", part = "all")
+  x <- bold(x, bold = TRUE, part = "all")
+  x <- bg(x, bg = "#475f77", part = "body", j = c("District"))
+  x <-  bg(x, bg = scales::col_quantile(palette = c("RdYlGn"), reverse = TRUE,domain = c(0, 100)),
+           j = c("missing_reports","neg_dropout_rate_dpt1_3","discrepancy_dpt3_pcv3",  "neg_wastage_rates_dpt"))
+  x <- bg(x, bg = "#1bbbda", part = "header")
+  x <- bg(x, bg = "#1bbbda", part = "footer")
+  x <- color(x, color = "white", part = "all")
+  x <- padding(x, padding = 6, part = "all")
+  x <- border_outer(x, part="all", border = std_border )
+  x <- border_inner_h(x, border = std_border, part="all")
+  x <- border_inner_v(x, border = std_border, part="all")
+  x <- set_table_properties(x, layout = "fixed")
+  x
+}
+```
+
+```{r}
+ft <- flextable( district_data)
+
+ ft |> 
+   theme_design()
+```
+
+```{r}
+ district_data |> 
+  mutate(missing_reports = if_else(missing_reports >= 50, TRUE, FALSE),
+         neg_dropout_rate_dpt1_3 = if_else(neg_dropout_rate_dpt1_3 >= 50, TRUE, FALSE),
+         discrepancy_dpt3_pcv3 = if_else(discrepancy_dpt3_pcv3 >= 50, TRUE, FALSE),
+         neg_wastage_rates_dpt = if_else(neg_wastage_rates_dpt >= 50, TRUE, FALSE),
+         .keep = "unused") |> 
+  summarise(across(missing_reports:neg_wastage_rates_dpt, sum, na.rm = T))
+  
+```
+
+
